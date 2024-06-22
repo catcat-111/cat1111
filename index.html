@@ -1,0 +1,230 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>No.5</title>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="layout.css">
+<style>
+  #header {
+    text-align: center;
+    margin: 0 auto; }
+	
+  #header img {
+    display: block;
+    margin: 0 auto;  }
+
+  #center {
+    text-align: center;  }
+
+  #center img {
+    display: block;
+    margin: 0 auto;  }
+
+  #headercnt {
+    margin: 0 auto;
+    max-width: 800px; 
+    text-align: center;  }
+
+  #mainNav {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;  }
+
+  #content {
+    text-align: center;
+    margin: 0 auto; }
+
+  #content img {
+    display: block;
+    margin: 0 auto; }
+
+  #footer {
+    text-align: center;
+    margin: 0 auto; }
+
+  .hover-image {
+    width: 3%;
+    margin-right: 5px; }
+
+  .hover-image:hover {
+    content: url('26.png'); }
+
+  .hover-image-3:hover {
+    content: url('24.png');  }
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; }
+
+  .item-container {
+    text-align: center; }
+
+  .item-container img {
+    width: 100px;}
+
+  .item-container p {
+    font-size: 24px;
+    font-weight: bold;  }
+  .item-container img {
+    width: 100%;
+    max-width: 300px;  }
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;  }
+
+  .item-container {
+    text-align: center;
+    margin: 0 10px;  }
+</style>
+</head>
+<body>
+  <div id="wapper">
+    <div id="footer">
+      <br>
+    </div>
+  </div>
+  
+  <div id="header">
+    <img src="2.jpg" width="20%" alt=""/>
+  </div>
+
+  <div id="headerpic">
+    <img src="1.jpg" width="100%" alt=""/>
+  </div>
+  <br><br><br>
+
+  <div id="center">
+    <img src="11.png" width="95%" alt="" class="center-image"/>
+  </div> 
+
+  <div id="work-classification" data-aos="fade-down" data-aos-offset="300">
+    <div id="headercnt">
+      <p style="font-size:20px;font-weight:bold;">
+        <br><span style="font-size:40px; color: black;"> 商品目錄</span><br><br>
+      </p>
+
+      <div class="flex-container">
+        <div class="item-container" onclick="openPage('light food.html')"
+          onmouseover="changeImage(this, '7.jpg', '輕食')"
+          onmouseout="restoreImage(this, '4.jpg', '輕食')">
+          <img src="4.jpg" width="60%" alt="">
+          <p>輕食&nbsp;</p>
+        </div>
+
+        <div class="item-container" onclick="openPage('drinks.html')"
+          onmouseover="changeImage(this, '8.jpg', '飲品')"
+          onmouseout="restoreImage(this, '5.jpg', '飲品')">
+          <img src="5.jpg" width="60%" alt="">
+          <p>飲品</p>
+        </div>
+
+        <div class="item-container" onclick="openPage('dessert.html')"
+          onmouseover="changeImage(this, '9.jpg', '點心')"
+          onmouseout="restoreImage(this, '6.jpg', '點心')">
+          <img src="6.jpg" alt="">
+          <p>點心</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <br><br><br>
+  
+  <div id="work-classification" data-aos="fade-down" data-aos-offset="300">
+    <div id="contact-method1" style="background-color:#007979; padding: 10px;">
+      <div id="mainNav">
+        <span style="font-size:20px; color: white;">
+          <p><span style="font-size:30px; color: white;"><strong>#&nbsp;<em>關於我們&nbsp;</em>#</strong></span></p>
+          <p>0000000000000000000000000000000000</p>
+          <p>0000000000000000000000000000000000</p>
+          <p>0000000000000000000000000000000000</p>
+          <p>0000000000000000000000000000000000</p>
+          <p>0000000000000000000000000000000000</p>
+          <p>0000000000000000000000000000000000</p>
+          <p>0000000000000000000000000000000000</p>
+        </span>
+      </div>
+
+      <div id="content">  
+        <table width="100%" border="0">
+          <tbody>
+            <tr>
+              <td align="right"><img src="12.jpg" width="70%" alt=""/></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div id="footer">
+      </div>
+    </div>
+    <br><br><br><br>
+    
+          <div id="contact-method2" style="background-color:#007979; padding: 10px;">
+          <div id="mainNav">
+          <span style="font-size:20px; color: white;"> 
+          <p><span style="font-size:30px; color: white;"><strong>#<em>&nbsp;位置資訊&nbsp;</em>#</strong></span></p>
+          <p>0000000000000000000000000000000000</p>
+          <p>0000000000000000000000000000000000</p>
+          <p>0000000000000000000000000000000000</p>
+          <p>0000000000000000000000000000000000</p>
+          <p>0000000000000000000000000000000000</p>
+          <p>0000000000000000000000000000000000</p>
+          <p>0000000000000000000000000000000000</p>
+          </span> 
+          </div>
+          <div id="content">  
+          <table width="100%" border="0">
+          <tbody>
+          <tr>
+          <td align="right"><img src="13.jpg" width="70%" alt=""/></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <div id="footer"> 
+          </div>	 
+          </div>
+      <br><br><br><br>
+  </div>
+  
+  <div id="contact-method" style="background-color:#007979; padding: 10px;">
+    <div style="background-color:#007979; padding: 10px;">
+      <span style="font-size:30px; color: white;">&nbsp; &nbsp; 電話:(03)00000000&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;</span> 
+        <a href="https://www.facebook.com/profile.php?id=100063662786916" target="_blank">
+        <img src="21.png" class="hover-image" alt="">
+        </a>
+        <a href="https://www.instagram.com/no.5__cinnamon_rolls/" target="_blank">
+        <img src="23.png" class="hover-image hover-image-3" alt="">
+        </a>
+        <br>
+        </div>
+        </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    function changeImage(element, newSrc, newAlt) {
+      const img = element.querySelector('img');
+      img.src = newSrc;
+      img.alt = newAlt;
+      }
+
+    function restoreImage(element, originalSrc, originalAlt) {
+      const img = element.querySelector('img');
+      img.src = originalSrc;
+      img.alt = originalAlt;
+      }
+ 
+    function openPage(url) {
+      window.open(url, '_blank');
+      }
+  </script>
+</body>
+</html>
+
+
